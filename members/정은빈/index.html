@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>정은빈 | 오더체크</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+      background-color: #0a1628;
+      color: #e8edf5;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: linear-gradient(145deg, #122044, #0d1a38);
+      border: 1px solid #1e3a6e;
+      border-radius: 20px;
+      padding: 56px 48px;
+      max-width: 520px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(30, 58, 110, 0.3);
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 28px;
+    }
+
+    .badge img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    .avatar {
+      width: 96px;
+      height: 96px;
+      background-color: #1a3255;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      border: 3px solid #2a5aa8;
+      box-shadow: 0 4px 20px rgba(30, 92, 191, 0.3);
+      overflow: hidden;
+    }
+
+    .avatar svg {
+      width: 56px;
+      height: 56px;
+      opacity: 0.5;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 6px;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: #7fb3f5;
+      margin-bottom: 12px;
+    }
+
+    .contact {
+      font-size: 0.85rem;
+      color: #8aaad4;
+      margin-bottom: 6px;
+    }
+
+    .contact:last-of-type {
+      margin-bottom: 36px;
+    }
+
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, #1e3a6e, transparent);
+      margin-bottom: 32px;
+    }
+
+    .section {
+      margin-bottom: 28px;
+      text-align: left;
+    }
+
+    .section-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #4a7cc7;
+      margin-bottom: 10px;
+    }
+
+    .section-content {
+      font-size: 0.95rem;
+      color: #c8d8f0;
+      line-height: 1.7;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      background-color: #0d1e40;
+      border: 1px solid #1e3a6e;
+      color: #a0c0e8;
+      font-size: 0.85rem;
+      padding: 6px 14px;
+      border-radius: 8px;
+    }
+
+    .quote {
+      background-color: #0d1e40;
+      border-left: 3px solid #3a7fd4;
+      border-radius: 0 10px 10px 0;
+      padding: 16px 20px;
+      font-size: 0.95rem;
+      color: #c8d8f0;
+      line-height: 1.6;
+    }
+
+    .footer {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      opacity: 0.6;
+    }
+
+    .footer img {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+    }
+
+    .footer span {
+      font-size: 0.85rem;
+      color: #7fb3f5;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge"><img src="logo.png" alt="오더체크" /></div>
+    <div class="avatar">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="8" r="4" fill="#7fb3f5"/>
+        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" stroke="#7fb3f5" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <h1>정은빈</h1>
+
+    <p class="contact">📧 eunbinjeong@ordercheck.ai</p>
+    <p class="contact">📞 010-9177-4004</p>
+
+    <div class="divider"></div>
+
+    <div class="section">
+      <div class="section-label">소속</div>
+      <div class="section-content">오더체크 경영지원팀</div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">좋아하는 것</div>
+      <div class="tag-list">
+        <span class="tag">🎵 음악 듣기</span>
+        <span class="tag">🚶 산책하기</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">다짐</div>
+      <div class="quote">ORDERCHECK, a trillionaire in the making....🤔</div>
+    </div>
+
+  </div>
+</body>
+</html>
